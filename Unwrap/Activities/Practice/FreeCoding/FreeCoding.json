@@ -168,7 +168,7 @@
             "letvar even8:[Int] = (1..<101).filter { $0 % 2 == 0 }",
             "letvar even8:[Int] = (1..<101).filter { return $0 % 2 == 0 }",
             "letvar even9:[Int] = (1..<101).filter { num in num % 2 == 0 }",
-            "letvar even9:[Int] = (1..<101).filter { num in return num % 2 == 0 }",
+            "letvar even9:[Int] = (1..<101).filter { num in return num % 2 == 0 }"
         ]
     }
 ]
